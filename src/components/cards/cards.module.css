@@ -1,0 +1,15 @@
+.cards {
+    max-width: 1385px;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    padding: 20px;
+    background-color: rgb(228 231 232);
+
+    background-size: 5em 5em;
+    opacity: 1
+
+
+
+}

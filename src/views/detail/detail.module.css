@@ -1,0 +1,36 @@
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    color:white ;
+}
+
+.detail {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: transparent;
+    border-radius: 10px;
+    border:2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    width: 350px;
+    height: 500px;
+    margin-bottom: 15px;
+    align-items: center;
+    backdrop-filter: blur(2px);
+    cursor: pointer;
+    opacity: 1;
+   
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+   
+}
+.detail h3{
+    margin: 0px;
+}
+.detail img{
+   margin-top:0px ;
+    width: 300px;
+    
+
+}
