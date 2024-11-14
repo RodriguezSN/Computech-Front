@@ -26,7 +26,8 @@ const onRedirectCallback = (appState) => {
 		appState?.returnTo || window.location.pathname
 	);
 };
-axios.defaults.baseURL = "http://localhost:3001";
+// axios.defaults.baseURL = "http://localhost:3001";
+axios.defaults.baseURL = "computech-back-production.up.railway.app";
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<Provider store={store}>
 		<PayPalScriptProvider
